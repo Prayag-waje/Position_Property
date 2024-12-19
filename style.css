@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-absolute{
+    position: absolute;
+    left: 500px;
+    right: 0px;
+    top: 250px;
+    bottom: 0px;
+}
+
+.box-static{
+    position: static;
+}
+
+.box-relative{
+    position: relative;
+    left: 50px;
+    right: 0px;
+    top: 20px;
+    bottom: 0px;
+}
+
+.box-fixed{
+    position: fixed;
+}
+
+.box-sticky{
+    position: sticky;
+    top: 20px;
+    left: 20px;
+}
